@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--Recipe Book View Controller - Recipe Book-->
+        <!--Recipe Book View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="RecipeBookViewController" sceneMemberID="viewController">
@@ -16,7 +16,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Yi2-xW-5EH">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RecipeCell" id="VPA-QZ-BGZ">
                                         <rect key="frame" x="0.0" y="46" width="320" height="46"/>
@@ -39,7 +39,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Recipe Book" id="866-cF-dyl"/>
+                    <navigationItem key="navigationItem" id="866-cF-dyl"/>
                     <connections>
                         <outlet property="tableView" destination="Yi2-xW-5EH" id="tuI-9V-wQV"/>
                     </connections>

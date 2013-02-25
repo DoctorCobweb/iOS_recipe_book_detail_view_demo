@@ -27,6 +27,8 @@
     /*
     recipes = [NSArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", @"Thai Shrimp Cake", @"Angry Birds Cake", @"Ham and Cheese Panini", nil];
      */
+    
+    self.title = @"Recipe Book";
     Recipe *recipe1 = [Recipe new];
     recipe1.name = @"Egg Benedict";
     recipe1.prepTime = @"30 min";
@@ -167,7 +169,7 @@
         destViewController.recipe = [recipes objectAtIndex:indexPath.row];
 
         // Hide bottom tab bar in the detail view
-      //  destViewController.hidesBottomBarWhenPushed = YES;
+        destViewController.hidesBottomBarWhenPushed = YES;
     }
 }
 

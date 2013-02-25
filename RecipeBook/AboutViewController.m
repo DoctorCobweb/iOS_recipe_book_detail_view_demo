@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"More Info";
 	// Add code to load web content in UIWebView
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"about.html" ofType:nil]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
